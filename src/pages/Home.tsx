@@ -11,7 +11,7 @@ function Home() {
             <nav>
               <a href="#">Sobre nós</a> 
               <a href="#">Blog</a> 
-              <a href="#">Ajuda</a>
+              <a href="#">Ajuda</a> 
               <a href="#">Contato</a>
             </nav>
           </div>
