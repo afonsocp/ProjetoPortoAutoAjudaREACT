@@ -15,7 +15,7 @@ const Integrantes: React.FC = () => {
               <img src="./src/assets/img/foto-afonso.png" className="foto-integrantes" alt="fotoafonso" />
             </div>
             <div className="infos-integrantes">
-              <h2>Afonso Correia Pereira</h2>
+              <h2>Afonso Correia Pereira</h2> 
               <h2>RM: 557863</h2>
               <h2>1TDSA</h2>
               <h2>
