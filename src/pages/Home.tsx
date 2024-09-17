@@ -18,7 +18,7 @@ function Home() {
         </header>
         <div className="maincontent">
           <div className="textoprincipal">
-            <h1>Agendar a manutenção do seu carro ficou mais fácil</h1>
+            <h1>Agendar a manutenção do seu carro ficou mais fácil</h1> 
             <p id="segundafrase">
              Oferecemos um serviço online que permite aos clientes agendar a manutenção de seus
                 veículos de forma conveniente. Utilizando inteligência artificial, garantimos um diagnóstico preciso e
