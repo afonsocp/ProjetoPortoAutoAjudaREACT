@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    padding-left: 30px;
+    align-items: center;
+    gap: 25px;
+    border-bottom: 2px solid #D3D3D3;
+    z-index: 999; 
+}
+
+.navtop {
+    position: relative; 
+    z-index: 998; 
+}
+
+.navtop nav {
+    font-family: "Inter", sans-serif;
+    display: flex;
+}
+
+.navtop nav a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+}
+
+.navtop nav a:hover {
+    text-decoration: none;
+    color: #00A3FF;
+}
+
+.textoprincipal {
+    font-family: "Archivo", sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    padding: 7%;
+    width: 900px;
+    height: auto;
+    font-size: 25px;
+    z-index: 997; 
+    
+}
+
+.hamburger{
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.hamburger::before,
+.hamburger::after{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin-top: 5px;        
+}
+
+#segundafrase {
+    color: #595959;
+}
+
+#terceirafrase {
+    font-size: larger;
+    color: #00A3FF;
+}
+
+.button {
+    border-radius: 13px;
+    width: 30%;
+    height: 70%;
+    padding: 10px;
+    font-family: "Archivo", sans-serif;
+    font-size: large;
+    color: white;
+    background-color: #00A3FF;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+}
+
+#textorodape {
+    font-family: "Inter", sans-serif;
+    color: white;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    z-index: 999; 
+}
+
+.footercontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+#portologorodape {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+}
+
+.socialicons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+#imagemdireita {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: auto;
+    z-index: 996; 
+}
+
+
+@media (max-width: 1400px) {
+    header {
+        width: 100%;
+    }
+
+    .textoprincipal{
+        width: 55%;
+        font-size: 18px;
+        justify-content: center;
+    }
+
+    .button{
+        width: 170px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: center;
+        justify-content: space-between;
+        display: flex;
+        
+    }
+
+    .hamburger{
+        display: block;
+        border: none;
+        background: none;
+        border-top: 3px solid rgb(0, 0, 0);
+        cursor: pointer;
+        margin-left: 300px;
+        
+    }
+
+    .navtop nav {
+        position: fixed;
+    }
+
+    .navtop nav a {
+        margin-right: 0;
+        display: none;
+    }
+
+    .textoprincipal {
+        padding: 5%;
+        width: 89%;
+        font-size: 18px;
+        align-items: start; 
+        text-align: start;
+        margin-left: 85px; 
+    }
+
+    .button {
+        width: 87%;
+        font-size: medium;
+        align-self: center;
+        margin-right: 70px;
+    }
+
+    .footercontent {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    footer {
+        position: relative;
+        margin-right: 0;
+        width: 100%
+    }
+
+    #imagemdireita {
+        position: relative;
+        height: auto;
+        width: 70%;
+        margin: 0 auto; 
+        bottom: 0;
+        margin-bottom: 70px;
+        border-bottom-right-radius: 40px;
+        border-radius: 12px;
+        display: flex; 
+        justify-content: center; 
+    }
+}
+
+@media (max-width: 576px) {
+
+    .hamburger{
+        display: block;
+        border: none;
+        background: none;
+        border-top: 3px solid rgb(0, 0, 0);
+        cursor: pointer;
+        margin-left: 200px;
+        
+    }
+    
+    header {
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .navtop nav {
+        flex-direction: row;
+        display: flex;
+        gap: 32px;
+
+    }
+
+    .navtop nav a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .textoprincipal {
+        display: flex;
+        position: relative;
+        padding: 5%;
+        font-size: 15px;
+        align-items: start; 
+        text-align: start;
+        right: 0;
+        left: 0;
+        position: relative;
+        height: auto;
+        width: 75%;
+        margin: 0 auto; 
+        right: 0;
+        bottom: 0;
+    }
+
+    .maincontent{
+        justify-content: center;
+    }
+
+    .button {
+        font-size: medium;
+        align-self: center;
+        margin-right: 70px;
+        justify-content: center;
+        position: relative;
+        height: auto;
+        width: 92%;
+        margin: 0 auto; 
+        right: 0;
+        bottom: 0;
+    }
+    
+
+    .footercontent {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    footer {
+        position: relative;
+        margin-right: 0;
+        width: 100%
+    }
+
+    #imagemdireita {
+        position: relative;
+        height: auto;
+        width: 60%;
+        margin: 0 auto; 
+        right: 0;
+        bottom: 0;
+        margin-bottom: 70px;
+        border-bottom-right-radius: 40px;
+        border-radius: 12px;
+        display: flex; 
+        justify-content: center; 
+    }
+}

@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header.dashboard {
+    display: flex;
+    padding: 20px;
+    padding-left: 30px;
+    align-items: center;
+    gap: 25px;
+    border-bottom:2px solid #D3D3D3;
+    justify-content: center;
+}
+
+
+.navtop nav{
+    font-family: "Inter", sans-serif; 
+    display: flex;
+    width: auto;
+}
+
+.navtop nav a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+}
+
+.navtop nav a:hover{
+    text-decoration: none;
+    margin-right: 15px;
+    color:#00A3FF;
+}
+
+.textoprincipal-dash{
+    font-family: "Archivo", sans-serif;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    flex-direction: column;
+    width: 450px;
+    height: auto;
+    font-size: 22px;
+    padding-left: 50%;
+    padding-top: 8%;
+}
+
+#segundafrase{
+    color: #595959;
+}
+
+#terceirafrase{
+    font-size: x-large;
+    color: #00A3FF;
+}
+
+.hamburger{
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.hamburger::before,
+.hamburger::after{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin-top: 5px;        
+}
+
+
+.button{
+    border-radius: 12px;
+    width: 55%;
+    height: 70%;
+    padding: 10px;
+    font-family: "Archivo", sans-serif;
+    font-size: large;
+    color: white;
+    background-color: #00A3FF;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 8px 0 8px 0;
+    justify-content: center;
+    display: flex;
+}
+
+#textorodape{
+    font-family: "Inter", sans-serif; 
+    color: white;
+    justify-content: center;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    height: 9%;
+    width: 100vw;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.footercontent-dash{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+#portologorodape{
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+}
+
+.socialicons{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+#imagemesquerda{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0; 
+    height: 100vh;
+    width: auto;
+}
+
+
+@media (max-width: 1650px) {
+    .textoprincipal {
+        width: 350px;
+        font-size: 20px;
+        margin-left: 100px;
+    }
+    #logoautoajuda{ 
+        margin-left: 300px;
+    }
+ }
+
+ @media (max-width: 1400px) {
+    .textoprincipal {
+        width: 350px;
+        font-size: 20px;
+        margin-left: 100px;
+    }
+    #logoautoajuda{ 
+        margin-left: 500px;
+    }
+ }
+
+
+@media (max-width: 1200px) {
+    .textoprincipal {
+        width: 350px;
+        font-size: 20px;
+        margin-left: 100px;
+    }
+    #logoautoajuda{ 
+        margin-left: 600px;
+    }
+ }
+
+@media (max-width: 768px) {
+    .hamburger{
+        display: block;
+        border: none;
+        background: none;
+        border-top: 3px solid rgb(0, 0, 0);
+        cursor: pointer;
+        margin-left: 200px;
+        
+    }
+
+
+    header {
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .navtop nav {
+        flex-direction: column;
+        align-items: flex-start;
+        display: none;
+    }
+
+    .navtop nav a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .textoprincipal {
+        display: flex;
+        position: relative;
+        padding: 5%;
+        font-size: 15px;
+        align-items: start; 
+        text-align: start;
+        right: 0;
+        left: 0;
+        position: relative;
+        height: auto;
+        width: 70%;
+        margin: 0 auto; 
+        right: 0;
+        bottom: 0;
+    }
+
+    .button {
+        font-size: medium;
+        align-self: center;
+        margin-right: 70px;
+        justify-content: center;
+        position: relative;
+        height: auto;
+        width: 100%;
+        margin: 0 auto; 
+        right: 0;
+        bottom: 0;
+    }
+
+    .footercontent {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    footer {
+        position: relative;
+        margin-right: 0;
+        width: 100%
+    }
+
+    #imagemesquerda {
+        position: relative;
+        height: auto;
+        width: 60%;
+        margin: 0 auto; 
+        right: 0;
+        bottom: 0;
+        margin-bottom: 70px;
+        border-bottom-left-radius: 100px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 80px;
+        display: flex; 
+        justify-content: center; 
+    }
+
+    #logoautoajuda{ 
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .textoprincipal {
+        display: flex;
+        position: relative;
+        padding: 5%;
+        font-size: 15px;
+        align-items: start; 
+        text-align: start;
+        right: 0;
+        left: 0;
+        position: relative;
+        height: auto;
+        width: 70%;
+        margin: 0 auto; 
+        right: 0;
+        bottom: 0;
+    }
+
+    .button {
+        font-size: medium;
+        align-self: center;
+        margin-right: 70px;
+        justify-content: center;
+        position: relative;
+        height: auto;
+        width: 100%;
+        margin: 0 auto; 
+        right: 0;
+        bottom: 0;
+    }
+
+    .footercontent {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    footer {
+        position: relative;
+        margin-right: 0;
+        width: 100%
+    }
+
+    #logoautoajuda{ 
+        margin-left: 0px;
+    }
+ }

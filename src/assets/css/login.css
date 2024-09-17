@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Archivo", sans-serif;
+}
+
+.logoautoajuda{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    width: 400px;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    border: 2px solid #444444;
+    border-radius: 15px;
+    width: 400px; 
+    height: 600px; 
+}
+
+.titulo{
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 20%;
+}
+
+.subtitulo{
+    font-size: 14.5px;
+    font-weight: 600;
+    color: #2F2F2F;
+}
+
+.form{
+    width: 256px;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-right: 75px;
+    gap: 30px;
+}
+
+.input-cpf, .input-senha{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    border: 1.8px solid #777777;
+    width: 330px;
+    height: 45px;
+    padding: 8px 0 8px 15px;
+}
+
+.button:hover{
+    background-color: #00A3FF ;
+    color: white;
+}
+
+.button-login {
+    background-color: #C2C2C2;
+    color: #494949;
+    width: 330px;
+    height: 45px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+#seta-direita{
+    margin-right: 12.5px;
+    font-size: 22.5px;
+}
+
+.titulobaixo{
+    font-size: 18.2px;
+    font-weight: 500;
+    margin-top: 70px;
+}
+
+.subtitulobaixo{
+    font-size: 29px;
+    font-weight: 600;
+    color: #0046C3;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    height: 9%;
+    width: 100vw;
+    bottom: 0;
+    right: 0; 
+    left: 0;
+}
+
+.footercontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+#portologorodape{
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+}
+
+.socialicons{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+#textorodape{
+    font-family: "Inter", sans-serif; 
+    color: white;
+    justify-content: center;
+}
+
+@media (max-width: 1400px) {
+    .logoautoajuda {
+        width: 400px;
+    }
+
+    .form {
+        width: 75%;
+        margin-right: 0px;
+    }
+
+    .input-cpf, .input-senha, .button {
+        width: 300px;
+    }
+    
+    .footercontent {
+        gap: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logoautoajuda {
+        width: 300px;
+    }
+
+    .container {
+        width: 350px; 
+        height: 500px; 
+        margin-bottom: 100px;
+    }
+
+    .form {
+        width: 90%;
+        margin-right: 0;
+        margin-top: 40px;
+    }
+
+    .input-cpf, .input-senha, .button {
+        width: 100%;
+    }
+
+    .titulo {
+        margin-top: 10%;
+        font-size: 34px;
+    }
+
+    .titulobaixo {
+        margin-top: 50px;
+        font-size: 17px;
+    }
+
+    .subtitulobaixo {
+        font-size: 27px;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .footercontent {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .socialicons {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logoautoajuda {
+        width: 250px;
+    }
+
+    .container {
+        width: 350px; 
+        height: 500px; 
+        margin-bottom: 100px;
+    }
+
+    .titulo {
+        font-size: 35px;
+        margin-top: 15%;
+    }
+
+    .subtitulo {
+        font-size: 13.4px;
+    }
+
+    .form {
+        width: 90%;
+        margin-top: 50px;
+        margin-right: 0;
+    }
+
+    .input-cpf, .input-senha, .button {
+        width: 100%;
+    }
+
+    .titulo, .titulobaixo {
+        text-align: center;
+    }
+
+    .titulobaixo {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .subtitulobaixo {
+        font-size: 25px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .footercontent {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .socialicons {
+        gap: 5px;
+    }
+}

@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-register {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Archivo", sans-serif;
+}
+
+.titulo-register {
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.subtitulo-register {
+    font-size: 11.7px;
+    font-weight: 600;
+    color: #2F2F2F;
+    text-align: center;
+}
+
+.form-register {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 5px; 
+}
+
+.input-nome-register,
+.input-email-register,
+.input-nascimento-register,
+.input-celular-register,
+.input-genero-register,
+.input-cpf-register,
+.input-senha-register {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1.8px solid #777777;
+    width: 100%; 
+    height: 45px;
+    padding: 8px 0 8px 15px;
+}
+
+#olho,
+#olho2 {
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    align-items: center;
+    margin-top: -35px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    color: #777777;
+}
+
+.button:hover {
+    background-color: #00A3FF;
+    color: white;
+}
+
+.button-register {
+    background-color: #C2C2C2;
+    color: #494949;
+    width: 100%;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+#seta-direita {
+    margin-right: 12.5px;
+    font-size: 22.5px;
+}
+
+.footercontent-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+#portologorodape {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+}
+
+.socialicons-register {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.container-register {
+    height: 60%;
+}
+
+#textorodape {
+    font-family: "Inter", sans-serif;
+    color: white;
+    justify-content: center;
+}
+
+@media (min-width: 1401px) {
+    .container-register {
+        width: 380px; 
+        padding: 20px; 
+    }
+
+    .logoautoajuda-register {
+        width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logoautoajuda-register {
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    .form-register {
+        width: 75%;
+        max-width: 300px;
+        margin-top: 15px;
+    }
+
+    .input-nome-register,
+    .input-email-register,
+    .input-nascimento-register,
+    .input-celular-register,
+    .input-genero-register,
+    .input-cpf-register,
+    .input-senha-register,
+    .button {
+        width: 100%;
+    }
+
+    .titulo-register {
+        margin-top: 1%;
+        font-size: 40px;
+    }
+
+    .subtitulo-register {
+        font-size: 12.4px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footercontent-register {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .socialicons-register {
+        gap: 10px;
+    }
+    
+    .container-register {
+        margin-bottom: 300px;
+    }
+}
+
+
+
+ @media (max-width: 576px) {
+    .logoautoajuda-register {
+        width: 250px; 
+        top: 10px;
+    }
+
+    .form-register {
+        width: 80%;
+        margin-top: 15px;
+    }
+
+    .input-nome-register,
+    .input-email-register,
+    .input-nascimento-register,
+    .input-celular-register,
+    .input-genero-register,
+    .input-cpf-register,
+    .input-senha-register,
+    .button-register {
+        width: 100%;
+    }
+
+    .titulo-register {
+        margin-top: 1%;
+        font-size: 38px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footercontent-register {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .socialicons-register {
+        gap: 10px;
+    }
+    
+    .container-register {
+        width: 70%;
+        max-width: 355px;
+        min-height: 60%;
+        height: auto;
+        margin-top: -50px; 
+        margin-bottom: 100px;
+    }
+    
+ }

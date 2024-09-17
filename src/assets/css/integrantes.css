@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .integrantes-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
+  
+  .logoautoajuda-integrantes {
+    width: 200px;
+    margin: 20px;
+  }
+  
+  .main-container-integrantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .container-integrantes {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 60%;
+    max-width: 700px;
+  }
+  
+  .item-integrantes {
+    width: 60%;
+  }
+  
+  .foto-integrantes {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .infos-integrantes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .github-link-integrantes {
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  .github-link-integrantes:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-integrantes {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .footercontent-integrantes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+  }
+  
+  #portologorodape-integrantes {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+  }
+  
+  .socialicons-integrantes {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .socialicons-integrantes a {
+    text-decoration: none;
+  }
+  

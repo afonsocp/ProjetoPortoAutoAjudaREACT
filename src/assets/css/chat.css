@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logoautoajuda-chat {
+    width: 400px;
+    height: auto;
+    margin: 45px;
+}
+
+.content-chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.chat-container-chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+}
+
+.mensagem-listbot-chat,
+.mensagem-listuser-chat {
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#bot-chat,
+#usuario-chat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#roboicon-chat,
+#usericon-chat {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.mensagembot-chat {
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.search-chat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.search-chat input {
+    width: 90%;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+#integrantes-chat {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #00A3FF;
+}
+
+#integrantes-chat h1 {
+    font-size: 24px;
+}
+
+footer-chat {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.footercontent-chat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+#portologorodape-chat {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+}
+
+.socialicons-chat {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.socialicons-chat a {
+    text-decoration: none;
+}
