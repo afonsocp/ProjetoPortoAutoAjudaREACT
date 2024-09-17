@@ -12,7 +12,7 @@ function Home() {
               <a href="#">Sobre nós</a> 
               <a href="#">Blog</a> 
               <a href="#">Ajuda</a> 
-              <a href="#">Contato</a>
+              <a href="#">Contato</a> 
             </nav>
           </div>
         </header>
